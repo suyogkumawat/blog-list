@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-top: 3rem;
+            color: #333;
+            letter-spacing: 2px;
+            font-size: 2.5rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+            width: 90%;
+            max-width: 600px;
+        }
+        li {
+            margin: 1rem 0;
+            background: rgba(255,255,255,0.8);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        li:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        a {
+            display: block;
+            padding: 1.2rem 2rem;
+            color: #4a47a3;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1b1b2f;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            a {
+                font-size: 1rem;
+                padding: 1rem 1.2rem;
+            }
+            ul {
+                max-width: 98%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>All Blog Posts</h1>
+    <ul>
+        <li><a href="https://blog1.example.com" target="_blank">🚀 Blog Post 1: Getting Started with Python</a></li>
+        <li><a href="https://blog2.example.com" target="_blank">🌟 Blog Post 2: Node.js Tips & Tricks</a></li>
+        <li><a href="https://blog3.example.com" target="_blank">🔥 Blog Post 3: Docker for Beginners</a></li>
+        <li><a href="https://blog4.example.com" target="_blank">💡 Blog Post 4: Responsive Web Design</a></li>
+        <!-- Add more blog links here -->
+    </ul>
+</body>
+</html>
